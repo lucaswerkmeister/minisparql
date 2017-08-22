@@ -1,0 +1,10 @@
+[Unit]
+Description=Fake SPARQL server for REGEX queries
+Documentation=https://github.com/lucaswerkmeister/minisparql/blob/master/README.md
+
+[Socket]
+ListenStream=9998
+Accept=true
+
+[Install]
+WantedBy=sockets.target
