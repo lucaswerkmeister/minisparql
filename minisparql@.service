@@ -8,12 +8,9 @@ StandardInput=socket
 StandardOutput=socket
 StandardError=journal
 
-User=nobody
+DynamicUser=yes
 LimitCPU=1s
 LimitNPROC=2
-ReadOnlyDirectories=/
-PrivateTmp=yes
-ReadWriteDirectories=/tmp /var/tmp
 PrivateDevices=yes
 PrivateNetwork=yes
 ProtectHome=yes
